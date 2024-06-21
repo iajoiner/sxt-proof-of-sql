@@ -24,7 +24,7 @@ mod provable_result_column;
 pub(crate) use provable_result_column::ProvableResultColumn;
 
 mod provable_query_result;
-pub(crate) use provable_query_result::ProvableQueryResult;
+pub use provable_query_result::ProvableQueryResult;
 #[cfg(test)]
 mod provable_query_result_test;
 
